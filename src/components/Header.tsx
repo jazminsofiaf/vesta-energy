@@ -31,8 +31,8 @@ export default function Header() {
         <div className="flex-1 flex justify-center md:justify-start">
           <Link href="/" className="flex items-center">
             <Image
-              src="https://ext.same-assets.com/2071430080/1319613709.svg"
-              alt="logo de Vesta Energy"
+              src="vesta-energy-slogan.png" 
+              alt="Slogan de Vesta Energy"
               width={180}
               height={40}
               className="h-10 w-auto"
@@ -49,7 +49,7 @@ export default function Header() {
             Tarifas
           </Link>
           <Link href="/tarifa-intelligent-go" className="text-white hover:text-vesta-lavender transition-colors">
-            Tarifa Intelligent Go
+            Tarifa Intelligent
           </Link>
           <Link href="/calcula-tu-ahorro" className="text-white hover:text-vesta-lavender transition-colors">
             Calcula tu ahorro
@@ -77,7 +77,7 @@ export default function Header() {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden fixed inset-0 z-50 bg-vesta-purple-dark bg-opacity-95 pt-20">
+        <div className="md:hidden fixed inset-0 z-50 bg-vesta-grey-dark bg-opacity-95 pt-20">
           <nav className="flex flex-col items-center space-y-6 p-8">
             <Link href="/" className="text-xl text-white hover:text-vesta-lavender transition-colors" onClick={toggleMenu}>
               Inicio
@@ -94,7 +94,7 @@ export default function Header() {
             <Link href="/solar" className="text-xl text-white hover:text-vesta-lavender transition-colors" onClick={toggleMenu}>
               Vesta Solar
             </Link>
-            <div className="pt-6 mt-6 border-t border-vesta-purple flex flex-col items-center space-y-6">
+            <div className="pt-6 mt-6 border-t border-vesta-grey flex flex-col items-center space-y-6">
               <Link href="/login" className="text-xl text-white hover:text-vesta-lavender flex items-center" onClick={toggleMenu}>
                 Mi cuenta
                 <svg width="24" height="24" viewBox="0 0 24 24" className="ml-2" fill="none" xmlns="http://www.w3.org/2000/svg">

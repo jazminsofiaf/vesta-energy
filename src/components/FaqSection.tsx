@@ -130,7 +130,7 @@ export default function FaqSection() {
 
         <Accordion type="single" collapsible className="w-full">
           {faqs.map((faq) => (
-            <AccordionItem key={faq.id} value={faq.id} className="border-b border-vesta-purple-light">
+            <AccordionItem key={faq.id} value={faq.id} className="border-b border-vesta-grey-light">
               <AccordionTrigger className="text-white text-left py-4 hover:text-vesta-lavender">
                 {faq.question}
               </AccordionTrigger>

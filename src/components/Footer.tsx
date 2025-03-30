@@ -6,7 +6,7 @@ import { Separator } from "@/components/ui/separator";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-vesta-purple py-16 px-4 md:px-8">
+    <footer className="w-full bg-vesta-grey py-16 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-white">
           Pásate al autoconsumo solar
@@ -99,7 +99,7 @@ export default function Footer() {
               </Link>
             </div>
 
-            <Separator className="bg-vesta-purple-light" />
+            <Separator className="bg-vesta-grey-light" />
 
             <div className="space-y-3">
               <h4 className="text-white text-sm font-medium">Sitios internacionales</h4>
@@ -158,7 +158,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <Separator className="bg-vesta-purple-light mb-8" />
+        <Separator className="bg-vesta-grey-light mb-8" />
 
         <div className="text-gray-400 text-sm">
           <p className="mb-4">

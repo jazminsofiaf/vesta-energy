@@ -13,10 +13,10 @@ export default {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
         vesta: {
-          purple: {
-            dark: '#150542',
-            DEFAULT: '#39348b',
-            light: '#5357a8',
+          grey: {
+			dark: '#313033',
+			DEFAULT: '#696870',
+			light: '#e8dfdf',
           },
           pink: {
             DEFAULT: '#e158ee',
