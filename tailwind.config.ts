@@ -19,8 +19,8 @@ export default {
 			light: '#e8dfdf',
           },
           pink: {
-            DEFAULT: '#e158ee',
-            light: '#e957f4',
+            DEFAULT: '#4152c6',
+            light: '#7580c9',
           },
           lavender: '#e3d8f7',
           blue: '#4c8cb0',
