@@ -35,15 +35,15 @@ export default function TariffSection() {
             <CardContent className="pt-4">
               <ul className="space-y-4">
                 <li className="flex items-start text-white">
-                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full border-2 border-ecoclima-pink flex-shrink-0" />
+                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full bg-ecoclima-pink flex-shrink-0" />
                   <span>Instala tu termostato inteligente para el manejo eficiente de la energía del hogar</span>
                 </li>
                 <li className="flex items-start text-white">
-                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full border-2 border-ecoclima-pink flex-shrink-0" />
+                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full bg-ecoclima-pink flex-shrink-0" />
                   <span>Ahorra en tu factura de luz y olvídate de imprevistos</span>
                 </li>
                 <li className="flex items-start text-white">
-                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full border-2 border-ecoclima-pink flex-shrink-0" />
+                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full bg-ecoclima-pink flex-shrink-0" />
                   <span>250 kWh/mes de electricidad</span>
                 </li>   
               </ul>
@@ -81,27 +81,27 @@ export default function TariffSection() {
             <CardContent className="pt-4">
               <ul className="space-y-4">
                 <li className="flex items-start text-white">
-                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full border-2 border-ecoclima-pink flex-shrink-0" />
+                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full bg-ecoclima-pink flex-shrink-0" />
                   <span>Instala tu termostato inteligente para el manejo eficiente de la energía del hogar</span>
                 </li>
                 <li className="flex items-start text-white">
-                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full border-2 border-ecoclima-pink flex-shrink-0" />
+                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full bg-ecoclima-pink flex-shrink-0" />
                   <span>Ahorra en tu factura de luz y olvídate de imprevistos</span>
                 </li>
                 <li className="flex items-start text-white">
-                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full border-2 border-ecoclima-pink flex-shrink-0" />
+                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full  bg-ecoclima-pink flex-shrink-0" />
                   <span>Instala placas solares y consume energía 100% sostenible</span>
                 </li>
                 <li className="flex items-start text-white">
-                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full border-2 border-ecoclima-pink flex-shrink-0" />
+                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full bg-ecoclima-pink flex-shrink-0" />
                   <span>Deja que el termostato inteligente venda el excedente de energía por tí</span>
                 </li>
                 <li className="flex items-start text-white">
-                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full border-2 border-ecoclima-pink flex-shrink-0" />
+                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full bg-ecoclima-pink flex-shrink-0" />
                   <span>Aporta enrgía sostenible a la comunidad y recibe ingresos pasivos</span>
                 </li>
                 <li className="flex items-start text-white">
-                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full border-2 border-ecoclima-pink flex-shrink-0" />
+                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full bg-ecoclima-pink flex-shrink-0" />
                   <span>500 kWh/mes de electricidad</span>
                 </li>
               </ul>
@@ -139,36 +139,36 @@ export default function TariffSection() {
             <CardContent className="pt-4">
               <ul className="space-y-4">
               <li className="flex items-start text-white">
-                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full border-2 border-ecoclima-pink flex-shrink-0" />
+                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full bg-ecoclima-pink flex-shrink-0" />
                   <span>Instala tu termostato inteligente para el manejo eficiente de la energía del hogar</span>
                 </li>
                 <li className="flex items-start text-white">
-                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full border-2 border-ecoclima-pink flex-shrink-0" />
+                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full bg-ecoclima-pink flex-shrink-0" />
                   <span>Ahorra en tu factura de luz y olvídate de imprevistos</span>
                 </li>
                 <li className="flex items-start text-white">
-                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full border-2 border-ecoclima-pink flex-shrink-0" />
+                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full  bg-ecoclima-pink flex-shrink-0" />
                   <span>Instala placas solares y consume energía 100% sostenible</span>
                 </li>
                 <li className="flex items-start text-white">
-                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full border-2 border-ecoclima-pink flex-shrink-0" />
+                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full bg-ecoclima-pink flex-shrink-0" />
                   <span>Deja que el termostato inteligente venda el excedente de energía por tí</span>
                 </li>
                 <li className="flex items-start text-white">
-                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full border-2 border-ecoclima-pink flex-shrink-0" />
+                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full bg-ecoclima-pink flex-shrink-0" />
                   <span>Aporta enrgía sostenible a la comunidad y recibe ingresos pasivos</span>
                 </li>
                 <li className="flex items-start text-white">
-                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full border-2 border-ecoclima-pink flex-shrink-0" />
+                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full  bg-ecoclima-pink flex-shrink-0" />
                   <span>No te preocupes por nada y disfruta de un hogar con climatización perfecta durante todo el año</span>
                 </li>
                 <li className="flex items-start text-white">
-                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full border-2 border-ecoclima-pink flex-shrink-0" />
+                  <span className="inline-block w-5 h-5 mr-2 mt-1 rounded-full  bg-ecoclima-pink flex-shrink-0" />
                   <span>Consumo ilimitado de electricidad</span>
                 </li>
               </ul>
               <div className="mt-6 text-center">
-                <p className="text-2xl font-bold text-white">Por 69.99€ al mes</p>
+                <p className="text-2xl font-bold text-white">Por 129.99€ al mes</p>
               </div>
             </CardContent>
             <CardFooter className="pt-4 flex justify-center">
@@ -182,6 +182,15 @@ export default function TariffSection() {
           </Card>
         </div>
       </div>
+      <div className="mt-8 flex justify-center">
+                <Image
+                  src="eco-clima-slogan.png"
+                  alt="Imagen ecoclima"
+                  width={500}
+                  height={500}
+                  className="h-64 w-auto rounded-xl object-cover"
+                />
+        </div>
     </section>
   );
 }
