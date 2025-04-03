@@ -31,8 +31,8 @@ export default function Header() {
         <div className="flex-1 flex justify-center md:justify-start">
           <Link href="/" className="flex items-center">
             <Image
-              src="vesta-energy-slogan.png" 
-              alt="Slogan de Vesta Energy"
+              src="eco-clima-slogan.png" 
+              alt="Slogan de ecoclima "
               width={180}
               height={40}
               className="h-10 w-auto"
@@ -42,26 +42,26 @@ export default function Header() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
-          <Link href="/" className="text-white hover:text-vesta-lavender transition-colors">
+          <Link href="/" className="text-white hover:text-ecoclima-pink transition-colors">
             Inicio
           </Link>
-          <Link href="/precios" className="text-white hover:text-vesta-lavender transition-colors">
+          <Link href="/precios" className="text-white hover:text-ecoclima-pink transition-colors">
             Tarifas
           </Link>
-          <Link href="/tarifa-intelligent-go" className="text-white hover:text-vesta-lavender transition-colors">
+          <Link href="/tarifa-intelligent-go" className="text-white hover:text-ecoclima-pink transition-colors">
             Tarifa Intelligent
           </Link>
-          <Link href="/calcula-tu-ahorro" className="text-white hover:text-vesta-lavender transition-colors">
+          <Link href="/calcula-tu-ahorro" className="text-white hover:text-ecoclima-pink transition-colors">
             Calcula tu ahorro
           </Link>
-          <Link href="/solar" className="text-white hover:text-vesta-lavender transition-colors">
-            Vesta Solar
+          <Link href="/solar" className="text-white hover:text-ecoclima-pink transition-colors">
+            ecoclima Solar
           </Link>
         </nav>
 
         {/* Account & Language */}
         <div className="hidden md:flex items-center space-x-4">
-          <Link href="/login" className="text-white hover:text-vesta-lavender flex items-center">
+          <Link href="/login" className="text-white hover:text-ecoclima-pink flex items-center">
             Mi cuenta
             <svg width="20" height="20" viewBox="0 0 24 24" className="ml-1" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -70,32 +70,32 @@ export default function Header() {
           </Link>
           <div className="flex items-center text-white">
             <span>Español</span>
-            <span className="ml-1 bg-vesta-pink rounded-full w-6 h-6 flex items-center justify-center text-xs">E</span>
+            <span className="ml-1 bg-ecoclima-pink rounded-full w-6 h-6 flex items-center justify-center text-xs">E</span>
           </div>
         </div>
       </div>
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden fixed inset-0 z-50 bg-vesta-grey-dark bg-opacity-95 pt-20">
+        <div className="md:hidden fixed inset-0 z-50 bg-ecoclima-grey-dark bg-opacity-95 pt-20">
           <nav className="flex flex-col items-center space-y-6 p-8">
-            <Link href="/" className="text-xl text-white hover:text-vesta-lavender transition-colors" onClick={toggleMenu}>
+            <Link href="/" className="text-xl text-white hover:text-ecoclima-pink transition-colors" onClick={toggleMenu}>
               Inicio
             </Link>
-            <Link href="/precios" className="text-xl text-white hover:text-vesta-lavender transition-colors" onClick={toggleMenu}>
+            <Link href="/precios" className="text-xl text-white hover:text-ecoclima-pink transition-colors" onClick={toggleMenu}>
               Tarifas
             </Link>
-            <Link href="/tarifa-intelligent-go" className="text-xl text-white hover:text-vesta-lavender transition-colors" onClick={toggleMenu}>
+            <Link href="/tarifa-intelligent-go" className="text-xl text-white hover:text-ecoclima-pink transition-colors" onClick={toggleMenu}>
               Tarifa Intelligent Go
             </Link>
-            <Link href="/calcula-tu-ahorro" className="text-xl text-white hover:text-vesta-lavender transition-colors" onClick={toggleMenu}>
+            <Link href="/calcula-tu-ahorro" className="text-xl text-white hover:text-ecoclima-pink transition-colors" onClick={toggleMenu}>
               Calcula tu ahorro
             </Link>
-            <Link href="/solar" className="text-xl text-white hover:text-vesta-lavender transition-colors" onClick={toggleMenu}>
-              Vesta Solar
+            <Link href="/solar" className="text-xl text-white hover:text-ecoclima-pink transition-colors" onClick={toggleMenu}>
+              ecoclima Solar
             </Link>
-            <div className="pt-6 mt-6 border-t border-vesta-grey flex flex-col items-center space-y-6">
-              <Link href="/login" className="text-xl text-white hover:text-vesta-lavender flex items-center" onClick={toggleMenu}>
+            <div className="pt-6 mt-6 border-t border-ecoclima-grey flex flex-col items-center space-y-6">
+              <Link href="/login" className="text-xl text-white hover:text-ecoclima-pink flex items-center" onClick={toggleMenu}>
                 Mi cuenta
                 <svg width="24" height="24" viewBox="0 0 24 24" className="ml-2" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -104,7 +104,7 @@ export default function Header() {
               </Link>
               <div className="flex items-center text-white">
                 <span className="text-xl">Español</span>
-                <span className="ml-2 bg-vesta-pink rounded-full w-8 h-8 flex items-center justify-center">E</span>
+                <span className="ml-2 bg-ecoclima-pink rounded-full w-8 h-8 flex items-center justify-center">E</span>
               </div>
             </div>
           </nav>

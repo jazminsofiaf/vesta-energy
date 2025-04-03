@@ -12,7 +12,7 @@ export default {
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
-        vesta: {
+        ecoclima: {
           grey: {
 			dark: '#313033',
 			DEFAULT: '#696870',

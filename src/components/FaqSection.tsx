@@ -5,7 +5,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 const faqs = [
   {
     id: "item-1",
-    question: "¿Cómo puedo contratar Vesta energy y ahorrar en mi factura de luz?",
+    question: "¿Cómo puedo contratar EcoClima y ahorrar en mi factura de luz?",
     answer: (
       <>
         <p className="mb-4">
@@ -15,7 +15,7 @@ const faqs = [
           Acepta las condiciones y firma tu contrato para hacer la instalación
         </p>
         <p>
-          Tu especialista solar te aplicará el precio especial si te pasas a Vesta
+          Tu especialista solar te aplicará el precio especial si te pasas a Ecoclima
         </p>
         <p className="mt-4">
           Si ya tienes tu instalación y nos contratas puedes vender el excedente de energía automaticamente utilizando nuestro dispositivo IoT.
@@ -32,7 +32,7 @@ const faqs = [
           Las placas solares se arriendan, no se compran, el precio está incluido en tu tarifa mensual de subscripción.
         </p>
         <p className="mb-4">
-          <strong>Financiado:</strong> Con Vesta energy conseguimos que tu ahorro mensual sea mayor que la cuota que pagas para que la instalación no te cueste nada.
+          <strong>Financiado:</strong> Con Ecoclima conseguimos que tu ahorro mensual sea mayor que la cuota que pagas para que la instalación no te cueste nada.
         </p>
       </>
     ),
@@ -55,7 +55,7 @@ const faqs = [
     question: "¿Quién instala mis placas?",
     answer: (
       <p>
-        En Vesta-energy queremos dar un servicio de 5 estrellas de principio a fin del proceso.
+        En EcoClima queremos dar un servicio de 5 estrellas de principio a fin del proceso.
         Por eso formamos a nuestro propio equipo de ingenieros e instaladores.
         De esta manera nos aseguramos de tener profesionales que se esfuercen por darte el servicio y la mejor calidad posible.
       </p>
@@ -101,7 +101,7 @@ const faqs = [
     question: "¿Cómo puedo recomendar a un amigo y recibir mi premio?",
     answer: (
       <p>
-        Una vez eres cliente de Vesta-energy(sea porque tienes la luz con nosotros o porque has hecho una instalación solar) recibirás un email con tu enlace de recomendación. 
+        Una vez eres cliente de Ecoclima (sea porque tienes la luz con nosotros o porque has hecho una instalación solar) recibirás un email con tu enlace de recomendación. 
         Solo tendrás que enviar ese enlace a quien quieras y podrá dejar sus datos para que le atendamos. 
         Una vez hecha su instalación, ambos tendréis vuestro premio. 
         Si no encuentras el enlace, también puedes llamarnos al 900 759 673 y haremos todo esto por ti.
@@ -130,8 +130,8 @@ export default function FaqSection() {
 
         <Accordion type="single" collapsible className="w-full">
           {faqs.map((faq) => (
-            <AccordionItem key={faq.id} value={faq.id} className="border-b border-vesta-grey-light">
-              <AccordionTrigger className="text-white text-left py-4 hover:text-vesta-lavender">
+            <AccordionItem key={faq.id} value={faq.id} className="border-b border-ecoclima-grey-light">
+              <AccordionTrigger className="text-white text-left py-4 hover:text-ecoclima-pink">
                 {faq.question}
               </AccordionTrigger>
               <AccordionContent className="text-gray-200 pb-4">

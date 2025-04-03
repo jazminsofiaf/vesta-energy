@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Instalación de placas solares en tu tejado | Vesta Energy",
-  description: "Instala placas solares y ahorra con Vesta Energy. Disfruta de batería virtual y nuestro monedero virtual para una casa sostenible",
+  title: "Instalación de placas solares en tu tejado | EcoClima",
+  description: "Instala placas solares y ahorra con EcoClimima. Disfruta de batería virtual y nuestro monedero virtual para una casa sostenible",
 };
 
 export default function RootLayout({
